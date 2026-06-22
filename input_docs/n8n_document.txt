@@ -1,0 +1,931 @@
+MASTERING BUSINESS SCENARIOS
+A TOGAF® Series Guide to Aligning IT Architecture with Business Value
+THE BUSINESS SCENARIO
+THE IMPLEMENTATION GAP
+BUSINESS NEEDS & VALUE STREAMS
+TECHNICAL
+ARCHITECTURE
+Based on TOGAF® Series Guide G176
+
+Architecture Without the "Why" Is Dangerous
+Building a solution without a Business Scenario is like constructing a building without knowing its occupants.
+The Warehouse Analogy
+≠
+Risks
+(Consumer
+Goods Spec)
+What I
+(H)
+IT Built
+Risk 1: Incomplete solutions that miss the actual need.
+Risk 2: Wasted costs on redundant or unnecessary heavy-duty features.
+Risk 3: Mismatch between the IT solution and the business value stream.
+at Businec)
+Wh
+ess Nee
+eavy Industry Sp
+
+The Business Scenario Is a Uniform Description of Value
+Building on the need for the "Why", the Business Scenario acts as a precise, standardized definition of value.
+The Definition
+A mechanism to validate the premise behind an architecture effort. It must capture:
+☑ Real business problems
+☑ The business and technology environment
+☑ Value streams enabled by capabilities
+☑ Desired outcomes
+Distinctions
+NOT a Use Case
+Use cases describe detailed software interactions.
+NOT a Business Case
+Business cases are for
+NOT on
+The Core Standard:
+A Business Scenario must be SMART (Specific, Measurable, Actionable, Realistic, Time-bound).
+
+
+The Anatomy of a Business Scenario
+1. PROBLEM
+Pain points, barriers, issues.
+2. ENVIRONMENT
+Business & Tech context, Value Streams.
+3. OUTCOMES
+The Desired Result (Must be SMART).
+4. ACTORS
+Human & Computer Actors.
+The Problem exists in the Environment, necessitating Outcomes, which are achieved by Human and Computer Actors.
+
+The Methodology: A Cycle of Refinement
+The Execution Loop
+(Repeats in every Phase)
+Plan
+Gather
+Review
+Document
+Analyze
+The Execution Loop
+(Repeats in every Phase)
+Plan
+Gather
+Review
+Document
+Analyze
+The Execution Loop
+(Repeats in every Phase)
+Plan
+Gather
+Review
+Document
+Analyze
+Premis
+(Explo)
+1. Use Form
+ore the I
+ulation2. Initi:
+Key Insight: The 5-step loop is repeated within each Phase. The output of the Review step determines if you move to the next Phase or iterate again.
+
+
+Steps 1 & 2: Planning the Approach and Gathering Data
+Step 1: Plan (The Mini-Project)
+Treat scenario creation as a project in itself.
+Identify Participants
+(Buy-side vs Supply-side)
+Constraints
+Time, People, Money
+Step 2: Gather (The Raw Material)
+Methods include research, surveys, and the Business Scenario Workshop.
+The Strawman Strategy
+Raw Data
+Research
+Existing Docs
+The empty-hand
+Sponsor
+Ide
+Identify the Spec
+Strawman Draft
+re-process
+do not entreaty
+workshop
+The
+workshop on
+unique
+rather than invention.
+
+
+Step 3: Analyzing—Where Data Becomes Insight
+Creating a Uniform View via the Linkage Matrix
+1. Normalize Raw Data (Remove semantics)
+2. Categorize (Affinity Analysis)
+3. Matrix (Tag)
+Goal: Every process must be tied to an actor, an issue, and a measurable objective.
+Constituency Human Actor Computer Actor Issue/Pain Point Objective (SMART)
+Order Entry Sales Rep CRM System Slow UI Reduce time by 10%
+
+
+Steps 4 & 5: Documenting and Reviewing
+Step 4: Documenting
+Create the Record of Reference.
+Rule: Must be readable by business
+management, not just IT architects.
+Body = Main Findings & Narrative
+Apps = Det.
+The absence of shared expectations is in many cases the root cause of project failures.
+Step 5: Reviewing
+The Feedback Loop.
+Mechanism: Readout meetings with sponsors.
+Goal: Ensure shared understanding of scope and impact.
+Outcome: Buy-in or S
+
+
+Navigating the Three Phases of Maturity
+Phase 1: Premise Formulation
+Input: An unstated question or vague directive (e.g., "We need an ERP").
+Action: Identify the "Solution looking for a problem".
+Output: List of key questions & stakeholders.
+Phase 2: Initial Verification
+Action: Face-to-face stakeholder engagement.
+Goal: Confirm the problem is real.
+Output: Draft Business Scenario (Verified but incomplete).
+Phase 3: Definition
+Action: Iterative analysis
+Goal: Make it Fit-for-Purpose.
+Output: Approved Business Scenario ready for Architecture Vision.
+lctbookLM
+
+Vague Goals Lead to Vague Solutions
+Transforming Objectives with the SMART Framework
+S.M.A.R.T.
+Specific - Measurable - Actionable - Realistic - Time-bound
+The Vague Wish
+Improve Productivity.
+A considerate user can use the system in a similar fashion.
+Add consistent user measurement.
+Reduce errors.
+Better
+This will lead to better efficiency.
+The SMART Objective
+By Q2 a consistent interface will be applied to all devices.
+The SMART Objective
+The interface will be user-friendly and fewer errors will be made.
+user friendly and fewer errors [Measurable].
+
+
+Where to Find Value: Categories of Goals
+Process
+• Increased throughput
+• Consistent output quality
+• Predictable costs
+Cost
+• Lower redundancy
+• Reduced lifecycle costs
+• Lower maintenance
+Risk
+• Security & Safety
+• Regulatory Compliance
+• Reduced human error
+Operat
+• Faster tir
+• Improved
+ne-to-mark
+IT Eff
+• Interop
+• Vendor
+Effectiver
+• Cons
+• Immn
+• User
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Exper
+• Consistent inter
+• Improved service q
+• Independen
+• Portab
+• Ex
+
+Roles & Responsibilities: The Scenario Team
+Team Roster
+Sponsor
+The Executive Anchor. Provides the Buy-side authority.
+Project Manager
+Plans & monitors the mini-project.
+Business Scenario Consultant
+Guides methodology & quality.
+Facilitates workshops (Neutral).
+Analyst & SME Collaborator
+Processes raw data into matrices.
+Author
+Captures workshop details.
+
+
+The Workshop Toolkit: Techniques for Extraction
+1. Active & Reflective Listening
+Paraphrasing to confirm understanding.
+Method: Mirroring & Clarification
+2. Brainstorming with Affinity Analysis
+Generating ideas and organizing chaos into groups.
+Method: Idea Generation & Categorization
+3. Money/Credit Voting
+Give participants a budget of fake money to 'spend' on features they truly value.
+Method: Resource Allocation & Prioritization
+4. Mul
+5. Role PI
+Method: Consensus Building & Reduction
+Method: Empathy Mapping & Scenario Simulation
+
+The Practitioner's Checklist
+FIELD GUIDE // DOCUMENT REF: CHK-001
+PLAN
+Are constraints (Time/People/Money) set?
+Are the Sponsor and the Spokes identified and draft ready?
+GATHER
+Are questions scripted?
+Are participants anonymous needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are participants needed?
+Are
+
+The Strategic Value of the Business Scenario
+Better
+Solutions
+(Aligned to real needs)
+Faster Realization
+(Incremental value delivery)
+Cheaper Costs
+(Eliminating redundancy & failed implementations)
+Next
+the Business for Phase
+A: Aision
+The end game is not the document; the end game is achieving the desired business outcome.
+
+

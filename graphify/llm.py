@@ -52,11 +52,11 @@ BACKENDS: dict[str, dict] = {
         "temperature": 0,
     },
     "kimi": {
-        "base_url": "https://api.moonshot.ai/v1",
-        "default_model": "kimi-k2.6",
+        "base_url": "http://localhost:11434/v1",
+        "default_model": "gemma2:9b",
         "env_key": "MOONSHOT_API_KEY",
-        "pricing": {"input": 0.74, "output": 4.66},  # USD per 1M tokens
-        "temperature": None,  # kimi-k2.6 enforces its own fixed temperature; sending any value raises 400
+        "pricing": {"input": 0.00, "output": 0.00},  
+        "temperature": 0.0,  # 0 makes the model strictly copy-paste facts  # kimi-k2.6 enforces its own fixed temperature; sending any value raises 400
     },
 }
 
@@ -68,12 +68,13 @@ Rules:
 - EXTRACTED: relationship explicit in source (import, call, citation, reference)
 - INFERRED: reasonable inference (shared data structure, implied dependency)
 - AMBIGUOUS: uncertain — flag for review, do not omit
+- LORE EXTRACTION: Extract a SHORT, CONCISE summary (max 2 sentences) into the `description` field for every node. DO NOT write long paragraphs!
 
 Node ID format: lowercase, only [a-z0-9_], no dots or slashes.
 Format: {stem}_{entity} where stem = filename without extension, entity = symbol name (both normalised).
 
 Output exactly this schema:
-{"nodes":[{"id":"stem_entity","label":"Human Readable Name","file_type":"code|document|paper|image|concept","source_file":"relative/path","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null}],"edges":[{"source":"node_id","target":"node_id","relation":"calls|implements|references|cites|conceptually_related_to|shares_data_with|semantically_similar_to","confidence":"EXTRACTED|INFERRED|AMBIGUOUS","confidence_score":1.0,"source_file":"relative/path","source_location":null,"weight":1.0}],"hyperedges":[],"input_tokens":0,"output_tokens":0}
+{"nodes":[{"id":"stem_entity","label":"Human Readable Name","description":"The FULL detailed explanation, rules, or lore from the text.","file_type":"code|document|paper|image|concept","source_file":"relative/path","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null}],"edges":[{"source":"node_id","target":"node_id","relation":"calls|implements|references|cites|conceptually_related_to|shares_data_with|semantically_similar_to","confidence":"EXTRACTED|INFERRED|AMBIGUOUS","confidence_score":1.0,"source_file":"relative/path","source_location":null,"weight":1.0}],"hyperedges":[],"input_tokens":0,"output_tokens":0}
 """
 
 

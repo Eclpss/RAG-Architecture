@@ -1,0 +1,584 @@
+March 2021
+Technology, Media & Telecommunications Practice
+Hardware’s business-
+model shift: Finding a 
+new path forward 
+New business models present an opportunity for IT-infrastructure 
+providers, who are facing a migration in value as buyers demand 
+cloud-like, customer-centric experiences. 
+by Himanshu Agarwal, Chandra Gnanasambandam, Mitra Mahdavian, and Srinath Nagarajan
+© Hal Bergman/Getty Images
+IT-infrastructure providers face an unenviable 
+challenge. Technological change has led their 
+customers to view hardware appliances as commod­
+itized. At the same time, cloud-based vendors 
+and hyperscalers have set new norms for simplifying 
+customers’ experiences of purchasing IT infra­
+structure. As a result, savvy chief information officers 
+(CIOs) and IT buyers now demand a cloud-like 
+experience even when buying on-premises IT infra­
+structure, such as pay-per-use models for on-site 
+equipment to help them manage the complexity of 
+their hybrid deployments and IT needs. 
+Take the case of networking. Advancements in 
+software-defined networking (SDN) help centralize 
+the network’s intelligence and control to the 
+software layer, resulting in the standardization of the 
+underlying hardware. The opportunity for OEMs 
+to compete on hardware-feature innovation has all 
+but dried up as a result. Intense competition 
+from new software-led competitors and cheaper 
+substitutes coming onto the market further 
+accentuate this challenge. 
+Given these forces, IT-infrastructure OEMs have 
+little choice but to reinvent their business models 
+to increase the share of recurring revenue 
+from subscription, software, and services. Yet 
+many OEMs struggle with their business-model-
+transformation strategy and its execution. 
+A successful transition requires four key elements, 
+starting first and foremost with selecting a new 
+business model that works best for that particular 
+company. After that critical decision is made, the 
+process involves reinventing core business 
+functions, managing the economic risks of such 
+a major shift, and embracing a flexible and 
+agile new organization and operating model.
+The rewards of a business-model 
+transformation
+IT-infrastructure providers typically adopt a combi­
+nation of different approaches to reinventing their 
+business model. When done right, IT-infrastructure 
+providers can see an increase in market share 
+and improvements in customer experience. For 
+example, Hewlett Packard Enterprise (HPE) 
+says its Greenlake 3.0 solution—a bundle of 
+traditional computing and storage hardware with 
+software products and services that is priced 
+using a single “unit of consumption” such as terabytes 
+or number of virtual machines—has onboarded 
+more than 1,000 customers with over $4 billion 
+in total contract value within three years of its 
+launch. In 2019, it also said that the consumer-
+satisfaction rating for the Greenlake 3.0 solution is 
+more than 80 percent, which is in the 99th percentile 
+for IT-service delivery. 
+Furthermore, we believe that investors will reward 
+new business models with a higher enterprise value 
+if providers can consistently demonstrate that 
+revenue is recurring in a manner that’s disconnected 
+from the life cycle of the hardware and that’s 
+subject to low customer churn while sustaining or 
+expanding profit margins. Drawing a parallel, 
+software companies that underwent successful 
+business-model transitions from perpetual 
+software-license models to software as a service 
+(SaaS) or SaaS-like recurring-revenue models 
+were rewarded with higher enterprise valuations. 
+The most well-known example is Adobe’s switch 
+to subscriptions, which is widely cited as evidence of 
+what is possible with the model: the multimedia- 
+and creativity-software provider increased its share 
+of subscription revenue from 10 percent to 
+88 percent between 2010 and 2018.1 During the 
+same period, its price-to-sales multiple increased 
+from 4.1 to 12.2.2
+1	Adobe SEC filings, US Securities and Exchange Commission, sec.gov.
+2	Trailing 12-month price-to-sales ratio as of December 31, 2010, and December 31, 2018 (Source: Thomson Reuters, reuters.com).
+2
+Hardware’s business-model shift: Finding a new path forward
+Finding the right model and approach
+In our research, we have observed four principal 
+ways that IT-infrastructure providers can transform 
+their business model. They involve redesigning 
+offerings, for example, to separate the use of 
+software from the underlying hardware appliance it 
+runs on, or to allow the software to operate across 
+cloud or hybrid setups, or to provide for subscription 
+options (Exhibit 1). 
+Each model comes with its own set of considerations, 
+so selecting the right model involves fully under­
+standing how it would play out for a particular OEM 
+and the type of products it sells. 
+Software-led product restructuring 
+Recognizing the migration of value from hardware 
+to software, some IT-infrastructure providers have 
+restructured their products and offerings to 
+separate the use of embedded software from the 
+hardware to offer it on a stand-alone basis. For 
+example, in 2017 Nutanix, a leading provider 
+of hyperconverged-infrastructure (HCI) technology,3 
+began to shift its focus from sale of hardware 
+appliances with integrated software to the sale of 
+HCI software (Acropolis, sold in software-only 
+form) to be run on hardware appliances from any 
+IT-infrastructure provider. Since then, it has seen its 
+high-margin stand-alone-software-based billing 
+grow in share to about 90 percent of its bookings (a 
+large share of the company’s increased software 
+bookings is also from stand-alone-software add-
+ons and cloud products). The company reported 
+its overall gross margins increased to 82 percent in 
+2020, compared with 66 percent in 2016.4
+However, embracing a software-led product 
+restructuring presents a risk of loss in market share 
+to other hardware-appliance vendors. For example, 
+most IT-infrastructure vendors that run Nutanix HCI 
+Software-led product 
+or oﬀer restructuring
+Products and oﬀers 
+redesigned to separate 
+use and deployment of 
+software from underlying 
+hardware appliance
+Public-cloud and 
+hybrid-cloud extensions
+Products and oﬀers 
+redesigned to operate 
+across cloud as 
+well as hybrid-cloud 
+environments 
+Software-adjacent 
+portfolio expansion
+Product suite 
+expands to include 
+software add-ons to 
+complement core 
+hardware appliances
+Cloud-like subscription-
+pricing models
+Pricing models allow customers 
+to pay for technical outcomes 
+(eg, input/output operations per 
+second or latency) on recurring-
+payment models such as pay 
+per use or subscription
+Reinvented business model
+Exhibit 1
+Four paths have emerged for IT-infrastructure original-equipment 
+manufacturers to reinvent their business models.
+3	A hyperconverged infrastructure is a turnkey data-center hardware that combines server, storage, and networking into a single appliance 
+prebundled with server and storage virtualization software.
+4	Nutanix investor presentations for fourth quarter 2020 and first quarter 2018.
+3
+Hardware’s business-model shift: Finding a new path forward
+software also offer their own competing HCI offer­
+ings. To manage these risks, hardware companies 
+need to avoid the trap of offering embedded 
+software on its own without added features or 
+functionality. Customers rarely perceive such offers 
+as sufficiently differentiated and independent 
+from the underlying hardware. Such moves done 
+poorly could prove counterproductive since 
+customers often view them as mere payment-
+model changes. 
+In our experience, companies that successfully 
+restructure their solutions to be software-led follow 
+three steps. First, they disaggregate the hardware 
+appliance down to its granular features and 
+performance attributes (throughput, input/output 
+operations per second, and latency, for example) 
+and match them to their users’ performance needs. 
+Second, they create a wholly new solution entirely 
+of software, operable on any hardware appliance 
+featuring an integrated control center to manage 
+hardware-performance attributes and adjust 
+underlying hardware or virtual resources as needed. 
+Finally, they offer several value-added software 
+features (performance monitoring and administration, 
+advanced analytics on usage, and proactive 
+maintenance of underlying hardware, for example). 
+Only with these changes do customers view 
+the software form-factor product as a viable stand-
+alone offer independent from the underlying 
+hardware appliance. 
+Public-cloud and hybrid-cloud extension 
+Today, IT buyers manage their workloads seamlessly 
+across multiple deployment models, including 
+on-premises data centers and private-cloud, public-
+cloud, and remote environments. Many IT 
+infrastructure OEMs have embraced the change 
+by extending their product and offers to cloud 
+and hybrid-cloud deployment models. For example, 
+NetApp is a leading provider of on-premises file-
+based storage technology.5 NetApp has teamed up 
+with Microsoft Azure to help offer file-based 
+storage technology on the public cloud, which allows 
+enterprises to run file-based applications in 
+Azure. Another example is Palo Alto Networks, 
+which not too long ago was a cybersecurity 
+company predominantly focused on selling 
+on-premise enterprise firewall hardware. Over time, 
+the company has expanded its offerings to include 
+a wide selection of software-based cloud and 
+hybrid-cloud security applications such as threat 
+prevention, SaaS security, and cloud network 
+protection. As a result, the company’s share of 
+software and services revenue has steadily 
+increased from approximately 40 percent in 2014 to 
+approximately 60 percent in 2018. These cloud-
+based offers are viewed as differentiated and 
+command higher price-to-sales multiples (typically 
+between five and seven times) than traditional 
+on-premises hardware offers (which are typically 
+between one and a half and three times ).6 During 
+this period, Palo Alto Networks’ share price 
+5	A storage technology best suited for hosting high-performance computing workloads, enterprise web applications, databases, et cetera.
+6	Palo Alto Networks SEC filings, US Securities and Exchange Commission, sec.gov.
+IT-infrastructure OEMs have little 
+choice but to reinvent their business 
+models to increase the share of 
+recurring revenue from subscription, 
+software, and services. 
+4
+Hardware’s business-model shift: Finding a new path forward
+increased from an average of just over $80 per 
+share to approximately $190 per share, an increase 
+of about 130 percent, which is about 1.3 times 
+the approximately 98 percent increase that the S&P 
+500 Information Technology Index experienced in 
+that same period.7 (Of course, multiple market 
+factors affect share prices, and the percentage of 
+recurring software revenue a company generates 
+is just one of them.)
+Public-cloud and hybrid-cloud product extensions 
+often expose the companies offering them to 
+competition from software-only players and public-
+cloud providers that are increasingly looking 
+to offer value-added hybrid-cloud service. In our 
+experience, companies that have successfully 
+scaled such public-cloud and hybrid-cloud exten­
+sions do three things. First, they position the 
+cloud offers with their existing customers as an 
+extension of their on-premises value proposition in 
+the cloud. Second, they design creative buying 
+programs that allow buyers to migrate their 
+spending seamlessly between on-premises and 
+cloud products. That drives a preference for 
+the company’s cloud offerings over others as 
+customers migrate their workloads to the cloud. 
+Finally, they enter partnerships with one or 
+more public-cloud providers to tap into a new 
+customer segment of cloud-first buyers previously 
+not exposed to the company. 
+Software-adjacent portfolio expansion 
+Another approach adopted by companies to reinvent 
+their business models is to expand their portfolio of 
+software products. Typically, these expansions 
+center on software add-ons that can serve various 
+parts of the technology stack. 
+Companies that have expanded their portfolio of 
+software products have often relied on acquisitions 
+of stand-alone software products. For example, 
+Cisco has strengthened its presence in networking 
+and security by acquiring software companies 
+in this space. Since 2017, the company purchased 
+three companies: Viptela, which offers SDN in a 
+wide-area network (SD-WAN); AppDynamics, 
+which offers application-performance management 
+and IT-operations analytics; and Duo Security, 
+which offers unified-access security and multifactor 
+authentication delivered through the cloud. 
+Since the acquisitions, Cisco’s price-to-sales 
+multiple increased from 3.1 to 3.9.8 
+Companies that expand their portfolio in this way 
+face the risks of low return on investments, whether 
+that’s in-house R&D spending or acquisition costs. 
+They also face the risk of improper integration of 
+new products with existing hardware-based offers. 
+The companies that have made successful portfolio 
+moves first start by understanding their target 
+decision makers’ typical buying processes. They 
+then expand to other products that these decision 
+makers either already need or are likely to want 
+in the future. Once launched, companies integrate 
+these new products with their existing portfolio 
+and create packages or bundles that holistically 
+address those target customers’ needs. 
+Cloud-like subscription-pricing models 
+IT buyers desire a seamless purchasing experience 
+from their on-premises OEMs that parallels the 
+experience they get from their cloud-service 
+providers. IT-infrastructure providers can respond 
+to these demands with cloud-like subscription-
+pricing models for both software and hardware. 
+Companies that introduce software products 
+(through one of the approaches already discussed) 
+often offer the hardware on an up-front-payment 
+model while increasing profitability through 
+subsequent sales of software on a subscription 
+model. For example, since moving to a software-led 
+model, Nutanix’s subscription-based billing 
+has grown. In the fourth quarter of 2020, about 
+65 percent of its billing was subscription-based, 
+compared with 31 percent in2017 (when it first 
+started reporting subscription-software revenue).9 
+7	Palo Alto Networks’ average stock price for 2014 was $82.95 and for 2018 was $215.59; the S&P 500’s Information Technology Index for 2014 
+was 630 and for 2018 was 1,210 (Source: S&P Dow Jones Indices, spglobal.com). 
+8	Trailing 12 months price-to-sales ratio as of December 31, 2016, and December 31, 2018 (Source: Thomson Reuters, reuters.com).
+9	Nutanix investor presentations for first quarter 2019 and first quarter 2018.
+5
+Hardware’s business-model shift: Finding a new path forward
+Even for traditional hardware products, 
+IT-infrastructure providers are innovating on pricing 
+models by offering hardware with turnkey on-site 
+deployment, flexibility to scale on demand, and 
+seamless periodic upgrades. Also, they can offer 
+customers the option to pay on a per-use or 
+consumption model. HPE Greenlake, for instance, 
+is a leading example of such a cloud-like subscrip­
+tion model for hardware. Another example is 
+the data storage provider Pure Storage’s Pure as-a-
+Service product, which commits to technical 
+outcomes around input/output operations per 
+second (IOPS), effective capacity, and uptime 
+of 99.999 percent. Pure Storage then delivers and 
+installs the appropriate equipment at the 
+customer’s premises with additional storage 
+media preinstalled to cater to on-demand 
+storage needs. 
+Almost all major infrastructure providers offer cloud-
+like subscription-pricing models for their storage, 
+server, and hyperconverged offerings. And cloud-
+like subscription-pricing models for hardware 
+appliances are gaining adoption among customers. 
+Yet these cloud-like recurring-pricing models 
+are easier to pull off for high-margin, software-only 
+products than for hardware appliances. 
+For that reason, cloud-like pricing models for 
+hardware appliances are suitable only for certain 
+offerings and providers. Companies that launch 
+and scale hardware appliances successfully make 
+this pricing model’s economics viable by using 
+contracting levers such as minimum contract 
+commitments or cancellation fees. In the case of 
+Pure as-a-Service, Pure Storage requires 
+customers to reserve capacity (at a set cost per 
+gigabyte) and pay in 12-month installments. 
+True-consumption-based pricing is offered only 
+for the on-demand add-on capacity. (For more 
+on best practices in moving to flexible subscription 
+models, see the article “Subscription myth 
+busters: What it takes to shift to a recurring-revenue 
+model for hardware and software.”) 
+The right business model 
+will be bespoke
+IT-infrastructure providers looking to change their 
+business model will likely need to come up with 
+their own tailored combination of the models we 
+describe here to pivot away from appliance-
+based, low-margin, lumpy revenue to sustainable 
+recurring-revenue business models. In our 
+experience, providers identify the right combination 
+by defining their business-model-transformation 
+aspirations in one or more of the following ways: 
+	
+— Increase the percentage of software revenue
+	
+— Increase the percentage of subscription or 
+recurring revenue
+	
+— Increase the services mix
+	
+— Improve the customer experience
+To succeed at transforming a business 
+model, IT-infrastructure OEMs have 
+to embrace fully the new organization 
+and operating model around it.
+6
+Hardware’s business-model shift: Finding a new path forward
+The right combination of business-model moves to 
+achieve these aspirations is company specific 
+and needs to be decided based on in-depth research 
+into, first, customer demand, buying preferences, 
+and life-cycle journeys and, second, company 
+opportunities to unlock additional value with premium 
+pricing, new upsell and cross-sell pathways, and 
+new total-addressable-market unlock.
+Regardless of the path chosen to reinvent the new 
+business models, successful shifts of this kind 
+require transformation across three major areas—
+key business functions, economics, and governance.
+Pulling it off 
+Overhauling a business model requires reinventing 
+all core business functions. In our experience, 
+changes to six of these functions have a dispropor­
+tionate impact on success (Exhibit 2). These include 
+the following changes:
+	
+— Offer design, packaging, and pricing execution. 
+Simplify product pricing and packaging.
+	
+— Sales and marketing. Revamp sales and 
+marketing for new business models.
+	
+— Services, customer success, and renewals. 
+Define your North Star for post-purchase 
+customer journeys and tailor your go-to-
+market strategy.
+	
+— Operations. Redefine the supply chain 
+and invest in capabilities for asset-life-
+cycle management.
+	
+— Systems and IT. Digitize end-to-end 
+administration of new offers.
+	
+— Product and engineering. Restructure products 
+and solutions to be software-led and backed by 
+customer needs.
+Oﬀer design, 
+packaging, 
+and pricing 
+execution
+Operations
+Sales and 
+marketing
+Business-
+model 
+strategy
+Services, 
+customer 
+success, and 
+renewals
+Product and 
+engineering
+Systems 
+and IT
+1. Simplify product pricing and packaging
+● Hardware SKUs minimized
+● Price value migrated to software
+● Subscription-based pricing models 
+with technical-outcomes-oriented 
+pricing metrics
+● Streamlined discounting practices to 
+improve price capture
+6. Restructure products and solutions to be 
+software-led and customer-needs driven
+● Integrated solutions across hardware, 
+software, and services (vs point solutions)
+● Standardized conﬁgurations with 
+performance controls embedded 
+into intelligent software layers
+● Cloud-native, microservices-
+enabled architecture for new 
+software oﬀerings 
+2. Revamp sales and marketing 
+for new business models
+● Redesigned sales and channel 
+incentives for new oﬀers
+● New sales and channel 
+playbooks and ﬁeld trainings
+● Field-sales and channel 
+evangelist pods to handhold 
+initial ﬁeld execution
+5. Digitize end-to-end 
+administration of new oﬀers
+● Embed product telemetry, 
+licensing, metering, and 
+monitoring capabilities 
+within products 
+● Redeﬁne lead-to-cash 
+processes with digital channels 
+3. Deﬁne North Star for post-purchase 
+customer journeys and tailor go to market
+● Dedicated customer-success function to 
+drive product adoption and use
+● Accountability for the customer experience 
+across all levels of the organization
+4. Redeﬁne supply chain and invest in 
+asset-life-cycle management capabilities 
+● Design to value for new software-led 
+products and oﬀers
+● Standardize hardware conﬁgurations 
+● Redeﬁne asset-life-cycle practices that 
+recycle used assets and optimize the supply 
+chain to deliver and recover assets
+1
+6
+3
+4
+2
+5
+Exhibit 2
+Changes to six core business functions have a disproportionate impact on 
+business-model-transformation success.
+7
+Hardware’s business-model shift: Finding a new path forward
+Economics of the transformation 
+Business-model transitions result in a radical change 
+in revenue, margin, and balance-sheet profiles for 
+companies. CFOs constantly fear that these changes 
+could destroy market value and internal finance 
+risks, such as cash-flow constraints and capital and 
+credit risks. Four best practices for managing 
+economic risk have emerged so far among hardware 
+companies that have undertaken business-
+model transformation:
+	
+— Accelerating the pace of transition of existing 
+customers to the new business model to 
+minimize the period of uncertainty for them
+	
+— Creating transparency with investors around 
+the business-model transition plan and reporting 
+against new business success metrics
+	
+— Partnering with players along the value chain, 
+such as suppliers, distributors, and value-
+added resellers, to jointly share and manage 
+financial risks 
+	
+— Exploring inorganic moves to mitigate financial 
+risks, such as setting up a separate financing arm, 
+or entering joint ventures with a financial 
+institution, or undergoing corporate restructuring 
+to separate the revenue stream of the new 
+business model from that of the old
+Governance
+To succeed at transforming a business model, 
+IT-infrastructure OEMs have to embrace 
+fully the new organization and operating model 
+around it. The actions required to do so fall 
+into four buckets: 
+	
+— Aligned vision, aspiration, and direction. 
+The top team has to be on the same page 
+around the aspiration for and ownership of the 
+transition and carry out a full communications 
+and engagement plan, just as for any 
+foundational change.
+	
+— Agile operating model for execution. It will take 
+a central control tower to orchestrate the 
+transformation with speed, with cross-functional 
+initiatives broken up into a manageable portfolio 
+of workstreams. 
+	
+— Right people, right skills, and right mindsets. 
+This level of change means reconsidering 
+the talent throughout the organization, to ensure 
+the capabilities to run the new business model 
+are in place.
+	
+— Right goals. Cascading objectives and 
+key results (OKRs) designed around recurring 
+revenue and the customer experience 
+will hardwire the change and drive desired 
+transformation outcomes.
+We believe reinventing the business model for an 
+IT-infrastructure OEM is an 18- to 24-month journey 
+that requires a total overhaul of a company’s 
+approach to doing business. Gleaning lessons from 
+similar business-model shifts undertaken by 
+software companies, we have seen that it is critical 
+for companies to set bold aspirations and timelines 
+and commit to the change. Companies that adopt a 
+slow and incremental approach to driving change 
+often find they’re not able to truly achieve it.
+Designed by McKinsey Global Publishing
+Copyright © 2021 McKinsey & Company. All rights reserved.
+Himanshu Agarwal is a partner in McKinsey’s Silicon Valley office, where Chandra Gnanasambandam is a senior partner and 
+Mitra Mahdavian is a partner. Srinath Nagarajan is an associate partner in the San Francisco office.
+8
+Hardware’s business-model shift: Finding a new path forward
