@@ -6,7 +6,7 @@
 
 This repository houses a customized, enterprise-grade Retrieval-Augmented Generation (RAG) architecture. It utilizes a dual-database approach (Knowledge Graph + Vector Matrix) orchestrated by n8n, powered by local LLMs via Ollama, and seamlessly bridged by a custom Python extraction engine.
 
-> ⚠️ **MUST DO:** Follow the full documentation in the Google Doc below first. Once you reach **Phase 5** in that doc, come back to this repo to continue with the next steps.
+> ⚠️ **MUST DO:** Follow the full documentation in the Google Doc below first. Once you reach **STEP 9** in that doc, come back to this repo to continue with the next steps.
 
 📄 **[Full Documentation (Google Docs)](https://docs.google.com/document/d/1PasmrAv3nz3n6Tco07IjREQD14dBG3VJbSPN5xgujAk/edit?usp=sharing)**
 
