@@ -80,8 +80,16 @@ def ask_neo4j():
         6. 🛑 INCOMPLETE QUESTION SHIELD: If the user's question is cut off, output EXACTLY:
            RETURN 'The question was cut off by the system before reaching the database.' AS Error_Message
 
-        7. Return ONLY the raw Cypher code. No markdown formatting, no conversational text.
-        8. Always append `LIMIT 25` to the very end of your query (unless using Rule 5 or 6).
+        7. 🛑 STRICT CYPHER SYNTAX RULE: You MUST follow the exact Neo4j execution order: MATCH -> WHERE -> WITH -> RETURN -> ORDER BY -> LIMIT. NEVER, under any circumstances, place a WHERE clause AFTER a RETURN clause.
+
+        8. 🛑 ANTI-HALLUCINATION RULE: NEVER invent node labels. You must strictly use ONLY the exact Node Labels provided in the 'DYNAMIC GRAPH TOPOLOGY MAP' above. Ignore any unrelated lore or memory.
+
+        9. 🔗 FLEXIBLE PATH RULE: If you are unsure of the exact relationship path between two concepts, use a flexible path search instead of complex arrays. 
+           Example: MATCH (a)-[*1..3]-(b) WHERE toLower(a.id) CONTAINS toLower('keyword') RETURN a, b
+
+        10. Return ONLY the raw Cypher code. No markdown formatting, no conversational text.
+        
+        11. Always append `LIMIT 25` to the very end of your query (unless using Rule 5 or 6).
         
         User Question: "{question}"
         """
@@ -89,7 +97,7 @@ def ask_neo4j():
         print(f"🧠 [NEO4J AGENT] Asking  to translate English to Cypher...")
         try:
             response = requests.post("http://localhost:11434/api/generate", json={
-                "model": "qwen3.5:9b", 
+                "model": "ibm/granite4.1:8b", 
                 "prompt": prompt,
                 "stream": False
             })
